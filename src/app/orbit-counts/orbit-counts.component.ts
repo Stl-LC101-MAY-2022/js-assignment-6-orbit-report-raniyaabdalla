@@ -12,8 +12,7 @@ export class OrbitCountsComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
   countByType(type: string): number {
 	let count = 0;
@@ -23,9 +22,9 @@ export class OrbitCountsComponent implements OnInit {
 			count++;
 		 }
 	  }
-	}
+	
+	console.log(count);
 	return count;
  }
-
-
+}
 }
